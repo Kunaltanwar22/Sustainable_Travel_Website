@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    transition: background-color 0.3s ease;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #4CAF50;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #4CAF50;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+section {
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-10px);
+}
+
+h2 {
+    color: #4CAF50;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+}
+
+.card h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.section-image {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.section-image:hover {
+    transform: scale(1.05);
+}
+
+.video-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+ </style>
+
+</head>
+<body>
+    
+    <header>
+        <h1>Sustainable Travel Guide</h1>
+        <p>Explore the world responsibly. Minimize your impact, maximize your experience.</p>
+    </header>
+
+   
+    <main>
+       
+        <section id="transportation">
+            <h2>Choose Eco-Friendly Transportation</h2>
+            <img src=https://gogreen.sorbonne.ae/wp-content/uploads/sustainable-transportation.jpg alt="Eco-friendly transportation" class="section-image">
+            <div class="card">
+                <h3>Public Transit</h3>
+                <p>Use buses and trains to reduce carbon emissions.</p>
+            </div>
+            <div class="card">
+                <h3>Bike Rentals</h3>
+                <p>Explore cities on two wheels for zero emissions.</p>
+            </div>
+            <div class="card">
+                <h3>Walking Tours</h3>
+                <p>Discover hidden gems while leaving no carbon footprint.</p>
+            </div>
+        </section>
+
+        
+        <section id="eco-lodges">
+            <h2>Stay in Eco-Lodges</h2>
+            <img src="https://cdn.prod.website-files.com/65097d6578d1dcb1e84efa23/6572e4cfbc50e968d3653885_RAAS%20Jodhpur%20Header%20Image%20.webp" alt="Eco-friendly lodges" class="section-image">
+            <div class="card">
+                <h3>Sustainable Architecture</h3>
+                <p>Eco-lodges use renewable materials and energy-efficient designs.</p>
+            </div>
+            <div class="card">
+                <h3>Minimal Impact</h3>
+                <p>These accommodations minimize water usage and waste production.</p>
+            </div>
+            
+            <div class="video-container">
+                <video controls>
+                    <source src="C:\Users\kunal\Downloads\Jodhpur _ Jodhpur Tourist Places _ Jodhpur Travel Guide .mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+       
+        <section id="local-communities">
+            <h2>Support Local Communities</h2>
+            <img src="https://lilatravelindia.com/wp-content/uploads/2023/06/Taj_Umaid_Mahal_Palace_Jodhpur-2.jpg" alt="Local communities" class="section-image">
+            <div class="card">
+                <h3>Local Guides</h3>
+                <p>Hire local guides for authentic experiences and to support the local economy.</p>
+            </div>
+            <div class="card">
+                <h3>Artisan Crafts</h3>
+                <p>Purchase souvenirs from local artisans to preserve traditional crafts.</p>
+            </div>
+            <div class="card">
+                <h3>Community-Based Tourism</h3>
+                <p>Participate in community-led tours and homestays for cultural immersion.</p>
+            </div>
+        </section>
+
+        <section id="resources">
+            <h2>Resources for Eco-Friendly Travel</h2>
+            <div class="card">
+                <h3>EcoTourism.org</h3>
+                <p>A comprehensive resource for eco-tourism, providing tips and information on sustainable travel practices.</p>
+                <a href="https://www.ecotourism.org" target="_blank" class="btn">Visit EcoTourism.org</a>
+            </div>
+            <div class="card">
+                <h3>SustainableTravel.org</h3>
+                <p>Find guides and tips for responsible travel and how to minimize your impact while exploring the world.</p>
+                <a href="https://www.sustainabletravel.org" target="_blank" class="btn">Visit SustainableTravel.org</a>
+            </div>
+         </section>
+    </main>
+
+    <footer>
+        <p>Designed by : Kunal Singh Tanwar</p>
+        <p>&copy; 2024 Sustainable Travel Guide. All rights reserved.</p>
+    </footer>
+</body>
+</html>
